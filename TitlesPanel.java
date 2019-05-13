@@ -1,3 +1,11 @@
+/**
+ * @author Galcev
+ * @versin 1.0
+ * 
+ * This file contains the description of classes and objects. Timer class variables. Derivation of objects and animation.
+ */
+
+
 import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.Insets;
@@ -22,6 +30,21 @@ public class TitlesPanel extends javax.swing.JPanel implements java.awt.event.Ac
 	    animation.start();
 	  }
 	  
+/**
+ * actionPerformed
+ * void actionPerformed(ActionEvent e)
+ * (Invoked when an action occurs.)
+ * @param: arg0
+ * 
+ * setStroke
+ * public abstract void setStroke(Stroke s)
+ * (Sets the Stroke for the Graphics2D context.)
+ * @param: s - the Stroke object to be used to stroke a Shape during the rendering process
+ * 
+ * 
+ */
+
+
 
 	  public void actionPerformed(java.awt.event.ActionEvent arg0)
 	  {
