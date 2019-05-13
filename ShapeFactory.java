@@ -1,3 +1,10 @@
+/**
+ * @author Galcev
+ * @versin 1.0
+ * 
+ * This file contains the creation of objects, drawing objects. Constructive selects through switch statement
+ */
+
 import java.awt.*;
 import java.awt.geom.GeneralPath;
 
@@ -7,7 +14,36 @@ public class ShapeFactory {
 	  public java.awt.Paint paint;
 	  public int width = 25;
 	  public int height = 25;
-	  
+
+/**
+ *BasicStroke
+ *public BasicStroke(float width)
+ *(Constructs a solid BasicStroke with the specified line width and with default values for the cap and join styles.)
+ *@Param: width - the width of the BasicStroke
+ * 
+ * 
+ * 
+ *public GeneralPath()
+ *Constructs a new empty single precision GeneralPath object with a default winding rule of 
+ * 
+ * 
+ * 
+ *moveTo
+ *public abstract void moveTo(double x, double y)
+ *(Adds a point to the path by moving to the specified coordinates specified in double precision.
+ *@param: x - the specified X coordinatey - the specified Y coordinate
+ * 
+ * 
+ * 
+ *lineTo
+ *public final void lineTo(double x, double y)
+ *(Adds a point to the path by drawing a straight line from the current coordinates to the new specified coordinates specified in double precision.)
+ *@Param: x - the specified X coordinatey - the specified Y coordinate
+ */
+	 	
+	
+	
+	
 	  public ShapeFactory(int shape_type) {
 	    stroke = new java.awt.BasicStroke(3.0F);
 	    switch (shape_type / 10) {
